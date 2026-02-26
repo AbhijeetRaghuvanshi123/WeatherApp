@@ -20,7 +20,7 @@ const filterWeather = (data) => {
 
     filteredData.temp = data.currentConditions.temp;
     filteredData.description = data.description;
-    filteredData.feelsLike = data.currentConditions.feelsLike;
+    filteredData.feelsLike = data.currentConditions.feelslike;
     filteredData.humidity = data.currentConditions.humidity;
     filteredData.wind = data.currentConditions.windspeed;
     filteredData.rainProb = data.currentConditions.precipprob;
