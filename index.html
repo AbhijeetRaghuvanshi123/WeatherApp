@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Weather</title>
+<script defer src="main.js"></script></head>
+<body>
+    <div class="header">
+        <h1>Weather is good, Isn't it?</h1>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="search-section">
+            <div>
+                <input type="text" id="city-input">
+                <button id="search">Get Weather</button>
+            </div>
+            <span id="error-field"></span>
+        </div>
+        <hr>
+        <div class="weather-details">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Temp</th>
+                        <th>Feels Like</th>
+                        <th>Humidity</th>
+                        <th>Wind</th>
+                        <th>Rain Probablity</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="data-row">
+                        <td>----</td>
+                        <td>----</td>
+                        <td>----</td>
+                        <td>----</td>
+                        <td>----</td>
+                        <td>----</td>
+                        <td>----</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
